@@ -1,6 +1,6 @@
 import unittest
 
-C
+from src.homework.c_decisions.decisions import get_faculty_rating, get_options_ratio
 
 
 class Test_Config(unittest.TestCase):
