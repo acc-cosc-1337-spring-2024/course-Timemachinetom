@@ -13,7 +13,7 @@ while quit == False:
         quantity = input ("Enter item quantity. Enter negative to subtract.")
         quantity = int(quantity)
         dictionary.add_inventory(widgets, widget_name, quantity)
-        print (widgets) #used to check the dictionary after each menu choice
+        #print (widgets) #used to check the dictionary after each menu choice
         exit = input ("Do you want to exit>\n1 - Yes\n2 - no")
         exit = int(exit)
         if exit == 1:
@@ -35,7 +35,7 @@ while quit == False:
         widget_name = input("Enter item name")
         delete = dictionary.remove_inventory_widget (widgets, widget_name)
         print (delete)
-        print (widgets)
+        #print (widgets)
         exit = input ("Do you want to exit>\n1 - Yes\n2 - no")
         exit = int(exit)
         if exit == 1:
